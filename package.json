@@ -1,0 +1,20 @@
+{
+  "name": "react_projects",
+  "version": "1.0.0",
+  "description": "reacat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JosephAparicio/aprendiendo-react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JosephAparicio/aprendiendo-react/issues"
+  },
+  "homepage": "https://github.com/JosephAparicio/aprendiendo-react#readme"
+}
