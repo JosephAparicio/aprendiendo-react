@@ -2,8 +2,8 @@ import { useState } from "react"
 import confetti from "canvas-confetti"
 import { Square} from "./components/Square.jsx"
 
-import { TURNS } from "./Constants.js"
-import { checkWinner} from "./logic/board.js"
+import { TURNS } from "./constants.js"
+import { checkWinner, checkEndGame} from "./logic/board.js"
 import { WinnerModal } from "./components/WinnerModal.jsx"
 
 function App() {
@@ -15,10 +15,6 @@ function App() {
     setBoard(Array(9).fill(null))
     setTurn(TURNS.X)
     setWinner(null)
-  }
-
-  const checkEndGame = () => {
-    return newBoard.every((square) => square !== null)
   }
 
   const updateBoard = (index) => {

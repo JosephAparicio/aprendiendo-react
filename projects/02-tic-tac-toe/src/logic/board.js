@@ -1,4 +1,4 @@
-import { WINNER_COMBOS } from "./constants.js"
+import { WINNER_COMBOS } from '../constants.js'
 
 export const checkWinner = (boardToCheck) => {
     for(const combo of WINNER_COMBOS){
@@ -12,4 +12,8 @@ export const checkWinner = (boardToCheck) => {
       }
     }
     return null;
+  }
+
+  export const checkEndGame = () => {
+    return newBoard.every((square) => square !== null)
   }
