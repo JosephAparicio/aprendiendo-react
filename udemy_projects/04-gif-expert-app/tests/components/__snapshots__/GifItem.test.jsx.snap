@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <GifItem /> debe de hacer match con el snapshot 1`] = `
+<div>
+  <div
+    class="card"
+  >
+    <img
+      alt="Saitama"
+      src="https://localhost/algo.jpg"
+    />
+    <span>
+      Saitama
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Pruebas en <GifItem /> debe de hacer match con el snapshot 2`] = `
+<div>
+  <div
+    class="card"
+  >
+    <img
+      alt="Saitama"
+      src="https://localhost/algo.jpg"
+    />
+    <span>
+      Saitama
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Pruebas en <GifItem /> debe de mostrar la imagen con el URL  1`] = `
+<div>
+  <div
+    class="card"
+  >
+    <img
+      alt="Saitama"
+      src="https://localhost/algo.jpg"
+    />
+    <span>
+      Saitama
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Pruebas en <GifItem /> debe de mostrar la imagen con el URL y el ALT indicado 1`] = `
+<div>
+  <div
+    class="card"
+  >
+    <img
+      alt="Saitama"
+      src="https://localhost/algo.jpg"
+    />
+    <span>
+      Saitama
+    </span>
+  </div>
+</div>
+`;
